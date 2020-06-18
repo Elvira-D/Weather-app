@@ -84,3 +84,14 @@ div.current-location p {
 p a {
     color: #ff5882;
 }
+
+.name {
+    display: inline;
+    margin: 0 auto;
+    color: #ff5882;
+}
+
+.github {
+    display: inline;
+    margin: 0 auto;
+}
