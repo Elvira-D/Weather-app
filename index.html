@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/styles.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+
+
+</head>
+
+<body>
+    <div class="container">
+
+
+        <form>
+            <input class="city" id="search-city" type="text" placeholder="Enter a City">
+            <input class="search" id="search" type="submit" value="Search Location">
+            <button>
+                Current Location 
+            </button>
+
+        </form>
+
+        <h2 class="date-time" id="date">
+            Sunday 31st May 13:30
+
+        </h2>
+        <div class="current-location " id="location">
+            <h2 id="city">
+                City
+            </h2>
+            <p>
+                Min <strong id="min"> 11 </strong> <a href="javascript:window.location.reload(); "> ℃ </a> | <a id="f1" href="#"> F </a> 🌞 Max <strong id="max"> 23 </strong> <a href="javascript:window.location.reload();"> ℃ </a> | <a id="f2" href="#"> F </a>
+            </p>
+            <p id="current-temperature">
+                Current Temperature
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <strong> Monday 1st June </strong>
+            </div>
+            <div class="col-sm">
+                Min <strong> 10℃ </strong>
+            </div>
+            <div class="col-sm">
+                Max <strong> 24℃ </strong>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                🌤️ <strong> Tuesday 2nd June </strong>
+            </div>
+            <div class="col-sm">
+                Min <strong> 11℃ </strong>
+            </div>
+            <div class="col-sm">
+                Max <strong> 21℃ </strong>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                🌦️ <strong> Wednesday 3rd June </strong>
+            </div>
+            <div class="col-sm ">
+                Min <strong> 12℃ </strong>
+            </div>
+            <div class="col-sm">
+                Max <strong> 22℃ </strong>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                ⛅ <strong> Thursday 4th June </strong>
+            </div>
+            <div class="col-sm ">
+                Min <strong> 10℃ </strong>
+            </div>
+            <div class="col-sm">
+                Max <strong> 22℃ </strong>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                🌤️ <strong> Friday 5th June </strong>
+            </div>
+            <div class="col-sm">
+                Min <strong> 13℃ </strong>
+            </div>
+            <div class="col-sm">
+                Max <strong> 22℃ </strong>
+            </div>
+        </div>
+    </div>
+
+    </ul>
+
+
+    <script src="src/index.js"></script>
+</body>
+
+</html>
